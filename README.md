@@ -6,10 +6,10 @@ Go-first multi-agent worker framework for building task-oriented agent teams.
 
 omniagent-worker provides building blocks for creating multi-agent systems in Go:
 
-- **Worker**: Minimal interface for task-oriented agents
-- **Coordinator**: Manages worker teams with workflow support
-- **Pool**: In-process worker management for embedded use
-- **AgentOps**: Full observability via OpenTelemetry-compatible tracing
+- ⚙️ **Worker**: Minimal interface for task-oriented agents
+- 🎯 **Coordinator**: Manages worker teams with workflow support
+- 📦 **Pool**: In-process worker management for embedded use
+- 👁️ **AgentOps**: Full observability via OpenTelemetry-compatible tracing
 
 ## Installation
 
