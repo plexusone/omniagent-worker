@@ -123,6 +123,8 @@ omniagent-worker is part of the OmniAgent family:
 
 ## Documentation
 
+- [CHANGELOG](CHANGELOG.md) - Version history
+- [v0.1.0 Release Notes](docs/releases/v0.1.0.md) - Latest release
 - [PRD](docs/specs/origin/PRD.md) - Product requirements
 - [TRD](docs/specs/origin/TRD.md) - Technical requirements
 - [PLAN](docs/specs/origin/PLAN.md) - Implementation plan
