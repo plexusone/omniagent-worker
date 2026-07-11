@@ -1,0 +1,6 @@
+github.com/go-chi/chi/v5 v5.3.1 h1:3j4HZLGZQ3JpMCrPJF/Jl3mYJfWLKBfNJ6quurUGCf8=
+github.com/go-chi/chi/v5 v5.3.1/go.mod h1:R+tYY2hNuVUUjxoPtqUdgBqevM9s9njzkTLutVsOCto=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/plexusone/omniobserve v0.11.0 h1:oFApQ2ULGVtmuhAiN0bsPpineL2G+Ncgg2FcoArMIgg=
+github.com/plexusone/omniobserve v0.11.0/go.mod h1:9vfc+8CWwQbNZLurWAdUthzT9en0kfQRxdeV/QRVa9w=
