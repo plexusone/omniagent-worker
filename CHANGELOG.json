@@ -1,0 +1,49 @@
+{
+  "irVersion": "1.0",
+  "project": "omniagent-worker",
+  "repository": "https://github.com/plexusone/omniagent-worker",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["plexusone", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-07-11",
+      "commit": "d2b2891",
+      "highlights": [
+        { "description": "Initial release of omniagent-worker, a Go-first multi-agent worker framework" },
+        { "description": "Minimal Worker interface for building task-oriented agents" },
+        { "description": "Coordinator for managing worker teams with workflow support" },
+        { "description": "Pool for in-process worker management (embedded use)" }
+      ],
+      "added": [
+        { "description": "Core `Worker` interface with ID, Type, Version, Init, Shutdown, Health, Execute methods", "commit": "6266d8a" },
+        { "description": "`WorkflowExecutor` interface for workflow step execution", "commit": "6266d8a" },
+        { "description": "`BaseWorker` implementation with configurable ID, Type, Version, and lifecycle management", "commit": "a20d795" },
+        { "description": "`WorkerConfig` struct for worker configuration", "commit": "a20d795" },
+        { "description": "`Pool` for in-process worker management with Register, Unregister, Dispatch, and Health operations", "commit": "44a9ea2" },
+        { "description": "`Coordinator` for workflow orchestration with Pool integration", "commit": "bd166fe" },
+        { "description": "`CoordinatorConfig` and `CoordinatorRequest`/`CoordinatorResponse` types", "commit": "bd166fe" },
+        { "description": "`WorkerClient` for HTTP-based remote worker communication", "commit": "14028a3" },
+        { "description": "HTTP `server` package with RESTful API, health endpoints, and graceful shutdown", "commit": "82085c4" }
+      ],
+      "tests": [
+        { "description": "Unit tests for `Pool` registration, dispatch, and health checks", "commit": "348a723" },
+        { "description": "Unit tests for `Coordinator` workflow execution", "commit": "348a723" }
+      ],
+      "documentation": [
+        { "description": "README with overview, installation, quick start examples, and architecture diagram", "commit": "60942aa" },
+        { "description": "PRD, TRD, PLAN, and ROADMAP specification documents", "commit": "60942aa" },
+        { "description": "Add icons to README features section", "commit": "6a9b38a" },
+        { "description": "Add shields badges to README", "commit": "d2b2891" }
+      ],
+      "dependencies": [
+        { "description": "Add go.mod with dependencies: omniobserve, omnillm, eino", "commit": "be1a270" }
+      ],
+      "chores": [
+        { "description": "Add MIT LICENSE file", "commit": "f374f33" },
+        { "description": "Add GitHub Actions shared workflows for CI", "commit": "e647e08" }
+      ]
+    }
+  ]
+}
