@@ -1,4 +1,4 @@
-# omniagent-worker
+# OmniAgent Worker
 
 Go-first multi-agent worker framework for building task-oriented agent teams.
 
